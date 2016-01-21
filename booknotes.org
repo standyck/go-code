@@ -1,0 +1,20 @@
+* Go Language Notes
+  Let's see if we can embed some go code:
+
+  #+BEGIN_SRC golang
+  package main
+
+  import "fmt"
+
+  func main() {
+     fmt.Println("Hello, 世界")
+  }
+  #+END_SRC
+
+  Looks like it isn't supported natively. I didn't find anything via search
+
+  I can link to code though which is probably more in line with what I want:
+
+  This is [[./main.go][main.go]] which is a go file.
+
+* Chapter 4 Composite Types
